@@ -21,6 +21,11 @@ Update the `3-music-collection.js` file to do the following:
   - ```js
       function addToCollection(collection, title, artist, yearPublished) {
         // your code here...
+        let newAlbum = {
+          title: title, 
+          artist: artist, 
+          yearPublished: yearPublished
+        }
       }
     ```
   - This function should:
@@ -30,6 +35,8 @@ Update the `3-music-collection.js` file to do the following:
       - *NOTE*: Your object's properties **must** have `title`, `artist`, and `yearPublished` in order for this assignment's automated tests to work correctly!
     - Add the new object to the end of the `collection` array.
     - `return` the newly created object.
+
+    **collection will be an array 
 
 - Use and Test the `addToCollection` function:
   - Add 6 albums to the `myCollection` array. Aim to have a mix of both same and different artists and published years. (Feel free to share your musical interests, or make stuff up. Totally fine either way.)
